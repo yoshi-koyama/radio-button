@@ -14,7 +14,7 @@
 
 `$ ./gradlew bootRun`
 
-※お使いのIDEから実行しても大丈夫です。
+※お使いのIDEから実行しても大丈夫です
 
 起動成功時のイメージ
 <img width="1440" alt="スクリーンショット 2022-02-08 16 59 12" src="https://user-images.githubusercontent.com/62045457/152943189-9411a7f9-c168-4fd7-bda5-1c74aa9803a0.png">
@@ -29,4 +29,4 @@
 
 `return to form`をクリックするとラジオボタンのフォームが表示される
 
-（`./gradlew bootRun`コマンドで実行している場合）`ctrl + c`で終了する。
+（`./gradlew bootRun`コマンドで実行している場合）`ctrl + c`で終了する
