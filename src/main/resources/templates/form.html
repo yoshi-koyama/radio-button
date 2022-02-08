@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Form With Radio Button</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form th:action="@{/form}" method="post">
+        <p>Select your favorite programming language</p>
+        <div>
+            <input type="radio" id="java" name="programmingLanguage" value="Java"
+                   checked>
+            <label for="java">Java</label>
+        </div>
+
+        <div>
+            <input type="radio" id="python" name="programmingLanguage" value="Python">
+            <label for="python">Python</label>
+        </div>
+
+        <div>
+            <input type="radio" id="go" name="programmingLanguage" value="Go">
+            <label for="go">Go</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
